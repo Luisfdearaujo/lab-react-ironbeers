@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import styles from './AddBeerPage.css';
 
 const apiURL = 'https://ih-beers-api2.herokuapp.com/beers';
 
